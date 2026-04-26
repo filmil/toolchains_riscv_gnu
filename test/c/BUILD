@@ -1,7 +1,7 @@
 # project/BUILD.bazel
 
 load("@rules_cc//cc:defs.bzl", "cc_binary", "cc_library")
-load("@aspect_bazel_lib//lib:transitions.bzl", "platform_transition_filegroup")
+load("@bazel_lib//lib:transitions.bzl", "platform_transition_filegroup")
 
 platform(
     name = "riscv32",
